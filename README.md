@@ -75,7 +75,7 @@ You can provide feedback or raise any issues/ bugs through the following means:
 * charitytoni0@gmail.com
 
 ## Live Site link
-You can view the live application by following this().
+You can view the live application by following this(https://charityblog.herokuapp.com/).
 
 ## License
 #### This project is license  by MIT for more information visit [LICENSE.md](LICENSE.md) .
