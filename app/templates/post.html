@@ -60,13 +60,13 @@
                     
                                 <textarea class="form-control md-textarea" id="textarea" name = "content" placeholder="Your message...."></textarea>
                     
-                               
-            <a class=" nav-link active" href="{{ url_for('main.profile',username=current_user.username) }}">Hi, {{current_user.username}}</a>
-            <a class=" nav-link active" href="{{ url_for('main.profile',username=current_user.username) }}"><img src="{{url_for('static', filename = current_user.profile_img)}}" alt="" style= "width:5%;height:auto;" ></a>
+                                <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Send Message</button>   
+            <!-- <a class=" nav-link active" href="{{ url_for('main.profile',username=current_user.username) }}">Hi, {{current_user.username}}</a>
+            <a class=" nav-link active" href="{{ url_for('main.profile',username=current_user.username) }}"><img src="{{url_for('static', filename = current_user.profile_img)}}" alt="" style= "width:5%;height:auto;" ></a> -->
             {%else%}
             <a class="nav-item nav-link active" href="{{ url_for('main.displayposts') }}">Home</a>
                    
-            <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Send Message</button>
+            
                                
                                 
                             </form>
