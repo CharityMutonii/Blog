@@ -1,9 +1,9 @@
 {%extends 'base.html'%}
 
 {% block content %}
-<div class="container-fluid mt-5">
+<div class="container-fluid ">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-5">
 
 
             <a class="mr-2" href="#">Author: {{ post.author|capitalize }}</a>
@@ -19,8 +19,6 @@
                 href="{{ url_for('main.update_post', post_id=post.id) }}">Update</a>
             <button type="button" class="btn btn-danger btn-sm m-1" data-toggle="modal"
                 data-target="#deleteModal">Delete</button>
-
-
 
             <div class="card">
 
