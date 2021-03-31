@@ -33,12 +33,12 @@
             </form>
             {% endif %} -->
             {%if current_user.is_authenticated%}
-            {%if current_user.id == post.user_id%}
+           
                 <a href="{{url_for('main.delete_comment', id = post.id, comment_id = comment.id)}}" class="float-right btn text-white btn-danger"> <i
                     class="far fa-trash-alt"></i>
                 </a>
             {%endif%}
-        {%endif%}
+        
             {%endfor%}
             {%endif%}
 
